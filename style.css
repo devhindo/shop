@@ -948,7 +948,9 @@ footer .shop:first-child {
     justify-content: flex-start;
     gap: 3rem;
 }
-
+.home-kitchen h2 {
+    margin-top: 4rem;
+}
 
 .garden-outdoor {
     background: url(./imgs/main/plants.webp) no-repeat center center;
