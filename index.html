@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME | Allureta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/svg" href="./imgs/svgs/favicon.svg">
+</head>
+
+<body>
+    <!-- cart popup -->
+
+    <div id="mySidebar" class="sidebar">
+        <div class="pop-header">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="./imgs/svgs/back.svg"
+                    alt=""></a>
+            <h1>Cart</h1>
+        </div>
+        <div class="pop-items">
+            <ul>
+                <li>
+                    <img src="./imgs/items/kitty.webp" alt="">
+                    <div class="item-info">
+                        <p>Self-Warming Pet Pad</p>
+                        <p>C$19.86</p>
+                        <input type="number" value="2">
+                    </div>
+                </li>
+                <li>
+                    <img src="./imgs/items/candy.webp" alt="">
+                    <div class="item-info">
+                        <p>YATG Cat Toys 21PCS</p>
+                        <p>C$20.99</p>
+                        <input type="number" value="2">
+                    </div>
+                </li>
+                <li>
+                    <img src="./imgs/items/toy.webp" alt="">
+                    <div class="item-info">
+                        <p>ChuckIt! Medium Ultra Balls</p>
+                        <p>C$68.00</p>
+                        <input type="number" value="1">
+                    </div>
+                </li>
+                <li>
+                    <img src="./imgs/items/kitty.webp" alt="">
+                    <div class="item-info">
+                        <p>Self-Warming Pet Pad</p>
+                        <p>C$19.86</p>
+                        <input type="number" value="3">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="subtotal-pop">
+            <p>Subtotal</p>
+            <p>C$169.56</p>
+        </div>
+        <div class="link-to-cart-page">
+            <a href="./cart.html" class="pop-view-cart">View Cart</a>
+        </div>
+    </div>
+
+    <!-- main -->
+
+    <div id="main">
+        <div class="banner">
+            <p>Free Shipping for Orders over $25</p>
+        </div>
+
+        <div class="header">
+            <div class="logo">
+                <a href="index.html" class="h1 logo-text">Allureta</a>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/wix" target="_blank" rel="noopener noreferrer"><img
+                        src="./imgs/svgs/facebook.svg" alt="Wix facebook official page"></a>
+                <a href="https://www.youtube.com/user/Wix" target="_blank" rel="noopener noreferrer"><img
+                        src="./imgs/svgs/youtube.svg" alt="Wix youtube channel"></a>
+                <a href="https://www.instagram.com/wix/" target="_blank" rel="noopener noreferrer"><img
+                        src="./imgs/svgs/instagram.svg" alt="Instagram wix official page"></a>
+            </div>
+        </div>
+        <!-- Navbar -->
+
+        <nav class="navbar">
+            <div class="pages">
+                <a href="./shop-all.html">shop all</a>
+                <a href="./baby.html">baby</a>
+                <a href="./homeandkitchhen.html">home & kitchen</a>
+                <a href="./gardenandoutdoor.html">garden & outdoor</a>
+                <a href="./pet-supplies.html">pet supplies</a>
+                <a href="./contact.html">contact</a>
+            </div>
+            <div class="tools">
+                <div class="log-in">
+                    <a href="#">
+                        <img src="./imgs/svgs/log-in.svg" alt="">
+                        <p>Log in</p>
+                    </a>
+                </div>
+                <div class="cart">
+                    <button class="openbtn" onclick="openNav()"><img src="/imgs/svgs/cart.svg" alt=""></button>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- content -->
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade slide-2">
+                <div class="grid-slider">
+                    <div class="slider-card">
+                        <h1>Choose Healthy & Nutritious for your Mind & Body</h1>
+                        <a href="./shop-all.html">Start Shopping</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides fade slide-1">
+                <div class="grid-slider">
+                    <div class="slider-card">
+                        <h1>Choose Healthy & Nutritious for your Mind & Body</h1>
+                        <a href="./shop-all.html">Start Shopping</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides fade slide-3">
+                <div class="grid-slider">
+                    <div class="slider-card">
+                        <h1>Choose Healthy & Nutritious for your Mind & Body</h1>
+                        <a href="./shop-all.html">Start Shopping</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <a class="prev" onclick="plusSlides(-1)"><img src="./imgs/main/back.svg" alt=""></a>
+            <a class="next" onclick="plusSlides(1)"><img src="./imgs/main/next.svg" alt=""></a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center; margin-bottom: 2rem">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <section class="home-grid">
+            <div class="container">
+                <div class="grid-parents">
+                    <div class="baby">
+                        <h2>Baby</h2>
+                        <a href="./baby.html">Shop Now</a>
+                    </div>
+                    
+                    <div class="home-kitchen">
+                        <h2>Home & Kitchen
+                        </h2>
+                        <a href="./homeandkitchhen.html">Shop Now</a>
+                    </div>
+
+                    <div class="garden-outdoor">
+                        <h2>Garden &
+                            Outdoor
+                        </h2>
+                        <a href="./homeandkitchhen.html">Shop Now</a>
+                    </div>
+                    <div class="pet">
+                        <h2>Pet supply
+
+                        </h2>
+                        <a href="./pet-supplies.html">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="best-sellers">
+            <div class="container">
+                <h1>Best sellers</h1>
+                <div class="best-sellers-grid">
+                    <div class="best-seller-item">
+                        <img src="./imgs/main/snacker.webp" alt="">
+                        <h3 class="best-seller-title">Happy Snacker Snack Cathcer and Slippy cup Set</h3>
+                        <div class="best-price">
+                            <p class="line-throw">C$25.79</p>
+                            <p>C$24.79</p>
+                        </div>
+                        <input type="number" value="1">
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="best-seller-item">
+                        <img src="./imgs/main/silicon.webp" alt="">
+                        <h3 class="best-seller-title">Silicone Suction Bowl</h3>
+                        <p>C$24.99</p>
+                        <input type="number" value="1">
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="empty"></div>
+            <div class="shop">
+                <p>Shop</p>
+                <a href="./shop-all.html">shop all</a>
+                <a href="./baby.html">baby</a>
+                <a href="./homeandkitchhen.html">home & kitchen</a>
+                <a href="./gardenandoutdoor.html">garden & outdoor</a>
+                <a href="./pet-supplies.html">pet supplies</a>
+                <a href="./contact.html">contact</a>
+            </div>
+            <div class="info">
+                <p>info</p>
+                <a href="contact.html">Contact</a>
+                <a href="#">Shipping & Returns</a>
+            </div>
+            <div class="offers">
+                <p>Get Special Deals & Offers</p>
+                <div class="contact-form">
+                    <label for="emailAddress">Email Address*</label>
+                    <input type="text" id="emailAddress">
+                    <button type="submit">Subscribe</button>
+                </div>
+                <div class="bestie">
+                    <p>Become Our Bestie!</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/wix" target="_blank" rel="noopener noreferrer"><img
+                                src="./imgs/svgs/facebook.svg" alt="Wix facebook official page"></a>
+                        <a href="https://www.youtube.com/user/Wix" target="_blank" rel="noopener noreferrer"><img
+                                src="./imgs/svgs/youtube.svg" alt="Wix youtube channel"></a>
+                        <a href="https://www.instagram.com/wix/" target="_blank" rel="noopener noreferrer"><img
+                                src="./imgs/svgs/instagram.svg" alt="Instagram wix official page"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copyRight">
+            <p>© 2023 by Besties. Proudly created with <span><a
+                        href="https://www.wix.com/?utm_campaign=vir_created_with" target="_blank"
+                        rel="noopener noreferrer">Wix.com</a></span>
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
