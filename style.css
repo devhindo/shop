@@ -620,8 +620,9 @@ footer .shop:first-child {
 }
 
 .link-to-cart-page {
-    margin: 0 auto;
     text-align: center;
+    padding: 1rem 2rem;
+    background-color: white;
 
 }
 
@@ -629,7 +630,6 @@ footer .shop:first-child {
     background-color: var(--orange-color);
     text-align: center;
     display: block;
-    margin: 1rem 2rem;
     padding: .8rem 0;
     color: white;
 
@@ -644,6 +644,7 @@ footer .shop:first-child {
 }
 
 .subtotal-pop {
+    background-color: white;
     color: black;
     padding: 1rem 2rem;
 }
