@@ -165,7 +165,7 @@ h1,
 h2,
 h3,
 .h1,
-.footer p {
+.footer p, .pages a {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
@@ -255,30 +255,29 @@ a {
 }
 
 .pages {
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.2rem;
+    display: flex;
     border-bottom: var(--border);
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-@media (min-width: 576px) {
-    .pages {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
+
 
 .pages a {
-    font-weight: 700;
-    line-height: 1rem;
+    padding: 5px 10px;
+    margin: 5px 10px;
     transition: .2s;
-    white-space: nowrap;
-
+    font-size: 12px;
+    font-weight: 700px;
+    
 }
 
 .pages a:hover {
     color: var(--sky-color);
 }
+
 
 
 .navbar img {
@@ -296,7 +295,7 @@ a {
 }
 
 .tools {
-    margin-top: 1rem;
+    margin: .5rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -307,39 +306,32 @@ a {
 
     .navbar {
         flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1rem .5rem;
-        align-items: center;
+        padding: 1rem;
     }
 
     .pages {
-        grid-template-columns: repeat(6, 1fr);
         border-bottom: none;
-        gap: 0;
-        align-items: center;
+        justify-content: flex-start;
     }
-
     .pages a {
-        font-size: .9rem;
-        margin-right: .5rem;
+        margin: 0;
+        padding: 0 .4rem;
     }
-
     .tools {
-        margin-top: 0;
+        margin: 0;
         gap: 1rem;
     }
 }
-
 @media (min-width: 992px) {
-    .navbar {
-        padding: 1rem 2rem;
-    }
-
-    .navbar a {
-        font-size: 1.1rem;
+    .pages a {
+        font-size: 1rem;
+        margin: 0 .4rem;
     }
 }
+.navbar a {
+    text-transform: uppercase;
+}
+
 
 
 .dash {
