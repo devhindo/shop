@@ -40,6 +40,9 @@
 .content {
     padding: 4rem;
 }
+.order-summery {
+    margin-top: 4rem;
+}
 .carts-section > h1, .order-summery > h1 {
     color: var(--sky-color);
     font-size: 1.5rem;
@@ -90,5 +93,7 @@
     .content {
         flex-direction: row;
     }
-    
+    .order-summery {
+        margin-top: 0rem;
+    }
 }
